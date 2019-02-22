@@ -14,6 +14,11 @@
 		F04FBD1F221AC36900AB6FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04FBD1D221AC36900AB6FD9 /* LaunchScreen.storyboard */; };
 		F04FBD2A221AC36900AB6FD9 /* ARKitBasicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FBD29221AC36900AB6FD9 /* ARKitBasicTests.swift */; };
 		F04FBD35221AC36900AB6FD9 /* ARKitBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FBD34221AC36900AB6FD9 /* ARKitBasicUITests.swift */; };
+		F04FBD49221D223700AB6FD9 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F04FBD48221D223700AB6FD9 /* Models.scnassets */; };
+		F072A616221E95C500899FAE /* renga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F072A615221E95C500899FAE /* renga.jpg */; };
+		F072A618221E98B900899FAE /* block.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F072A617221E98B900899FAE /* block.jpg */; };
+		F072A61C221EA35400899FAE /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F072A61B221EA35400899FAE /* wall.jpg */; };
+		F072A61E22201C4D00899FAE /* collision.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F072A61D22201C4C00899FAE /* collision.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		F04FBD30221AC36900AB6FD9 /* ARKitBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARKitBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04FBD34221AC36900AB6FD9 /* ARKitBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitBasicUITests.swift; sourceTree = "<group>"; };
 		F04FBD36221AC36900AB6FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04FBD48221D223700AB6FD9 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		F072A615221E95C500899FAE /* renga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = renga.jpg; path = Assets.xcassets/renga.jpg; sourceTree = "<group>"; };
+		F072A617221E98B900899FAE /* block.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = block.jpg; sourceTree = "<group>"; };
+		F072A61B221EA35400899FAE /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
+		F072A61D22201C4C00899FAE /* collision.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = collision.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		F04FBD13221AC36700AB6FD9 /* ARKitBasic */ = {
 			isa = PBXGroup;
 			children = (
+				F04FBD48221D223700AB6FD9 /* Models.scnassets */,
 				F04FBD14221AC36700AB6FD9 /* AppDelegate.swift */,
 				F04FBD16221AC36700AB6FD9 /* ViewController.swift */,
 				F04FBD18221AC36700AB6FD9 /* Main.storyboard */,
+				F072A61B221EA35400899FAE /* wall.jpg */,
+				F072A615221E95C500899FAE /* renga.jpg */,
+				F072A617221E98B900899FAE /* block.jpg */,
+				F072A61D22201C4C00899FAE /* collision.mp3 */,
 				F04FBD1B221AC36900AB6FD9 /* Assets.xcassets */,
 				F04FBD1D221AC36900AB6FD9 /* LaunchScreen.storyboard */,
 				F04FBD20221AC36900AB6FD9 /* Info.plist */,
@@ -230,8 +245,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F04FBD1F221AC36900AB6FD9 /* LaunchScreen.storyboard in Resources */,
+				F072A616221E95C500899FAE /* renga.jpg in Resources */,
 				F04FBD1C221AC36900AB6FD9 /* Assets.xcassets in Resources */,
 				F04FBD1A221AC36700AB6FD9 /* Main.storyboard in Resources */,
+				F04FBD49221D223700AB6FD9 /* Models.scnassets in Resources */,
+				F072A618221E98B900899FAE /* block.jpg in Resources */,
+				F072A61C221EA35400899FAE /* wall.jpg in Resources */,
+				F072A61E22201C4D00899FAE /* collision.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
